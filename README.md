@@ -14,13 +14,19 @@ HackerNew Search
 Git clone https://github.com/dinowins/angular-clone
 Npm install <-- to install dependencies
 
+## Component Tree
+
+Root --> Homepage | Header | Footer | Login | Signup
+Homepage --> Mast | Region-Caster | Signup Hero
+
 ## Completed Features
 
 ## Future Features
 
 Login page
 Signup page
-Use weather API to pull data 
+Use weather API to pull data
+Individualized city weather page
 
 ## Development server
 
