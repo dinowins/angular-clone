@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomepageMastComponent } from './homepage/homepage-mast/homepage-mast.component';
+import { RegionCasterComponent } from './homepage/region-caster/region-caster.component';
+import { SignupHeroComponent } from './homepage/signup-hero/signup-hero.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HomepageMastComponent,
+    RegionCasterComponent,
+    SignupHeroComponent
   ],
   imports: [
     BrowserModule,

@@ -16,8 +16,8 @@ Npm install <-- to install dependencies
 
 ## Component Tree
 
-Root --> Homepage | Header | Footer | Login | Signup
-Homepage --> Mast | Region-Caster | Signup Hero
+root --> homepage | header | footer | login | signup
+homepage --> homepage-mast | region-caster | signup-hero
 
 ## Completed Features
 
