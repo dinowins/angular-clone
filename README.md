@@ -25,6 +25,9 @@ Should click on a link and see the corresponding link | |
 
 ## Completed Features
 
+- Sign-Up Hero: Link to subscribe page
+- Footer: Display links 
+
 ## RoadMap
 
 Features wishlist:
