@@ -17,6 +17,30 @@ Weather Underground Landing Page
 
 `Npm install` to install dependencies
 
+## FireBase Credentials
+
+Must have a Google account.
+
+Before serving the project, go to https://firebase.google.com/. You will see the option to "Add project". Select it.
+
+Click on the "Add FireBase to your web app" option (icon is </>).
+
+Add the following code to src/app/api-keys.ts and fill in the fields with your corresponding FireBase information:
+
+```bash
+
+export const masterFirebaseConfig = {
+    apiKey: "xxxx",
+    authDomain: "xxxx.firebaseapp.com",
+    databaseURL: "https://xxxx.firebaseio.com",
+    storageBucket: "xxxx.appspot.com",
+    messagingSenderId: "xxxx"
+  };
+
+```
+
+/src/app/api-keys.ts is already added .gitignore file for FireBase information security.
+
 ## Specs
 Specification | Input | Output
 ------------- | ----- | ------
@@ -26,7 +50,7 @@ Should click on a link and see the corresponding link | |
 ## Completed Features
 
 - Sign-Up Hero: Link to subscribe page
-- Footer: Display links 
+- Footer: Display links
 
 ## RoadMap
 
@@ -39,6 +63,10 @@ Features wishlist:
 - Use weather API to pull data
 
 - Individualized city weather page
+
+Changes from original website:
+
+- Remove ads for cleaner look
 
 ## Component Tree
 
