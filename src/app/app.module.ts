@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomepageMastComponent } from './homepage/homepage-mast/homepage-mast.component';
 import { RegionCasterComponent } from './homepage/region-caster/region-caster.component';
 import { SignupHeroComponent } from './homepage/signup-hero/signup-hero.component';
+import { FavoritesBarComponent } from './favorites-bar/favorites-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SignupHeroComponent } from './homepage/signup-hero/signup-hero.componen
     FooterComponent,
     HomepageMastComponent,
     RegionCasterComponent,
-    SignupHeroComponent
+    SignupHeroComponent,
+    FavoritesBarComponent
   ],
   imports: [
     BrowserModule,
