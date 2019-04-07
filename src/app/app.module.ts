@@ -11,6 +11,7 @@ import { SignupHeroComponent } from './homepage/signup-hero/signup-hero.componen
 import { FavoritesBarComponent } from './favorites-bar/favorites-bar.component';
 import { LoginComponent } from './login/login.component';
 import { routing } from './app.routing';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { routing } from './app.routing';
     RegionCasterComponent,
     SignupHeroComponent,
     FavoritesBarComponent,
-    LoginComponent
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
