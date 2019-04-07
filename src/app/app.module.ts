@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
@@ -11,6 +10,7 @@ import { RegionCasterComponent } from './homepage/region-caster/region-caster.co
 import { SignupHeroComponent } from './homepage/signup-hero/signup-hero.component';
 import { FavoritesBarComponent } from './favorites-bar/favorites-bar.component';
 import { LoginComponent } from './login/login.component';
+import { routing } from './app.routing';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,8 @@ import { LoginComponent } from './login/login.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
