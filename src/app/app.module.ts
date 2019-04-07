@@ -10,6 +10,7 @@ import { HomepageMastComponent } from './homepage/homepage-mast/homepage-mast.co
 import { RegionCasterComponent } from './homepage/region-caster/region-caster.component';
 import { SignupHeroComponent } from './homepage/signup-hero/signup-hero.component';
 import { FavoritesBarComponent } from './favorites-bar/favorites-bar.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FavoritesBarComponent } from './favorites-bar/favorites-bar.component';
     HomepageMastComponent,
     RegionCasterComponent,
     SignupHeroComponent,
-    FavoritesBarComponent
+    FavoritesBarComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
