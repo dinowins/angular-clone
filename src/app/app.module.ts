@@ -12,17 +12,17 @@ import { FavoritesBarComponent } from './favorites-bar/favorites-bar.component';
 import { LoginComponent } from './login/login.component';
 import { routing } from './app.routing';
 import { SignupComponent } from './signup/signup.component';
-import { masterFirebaseConfig } from './api-keys';
-import { AngularFireModule } from 'angularfire2';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
+// import { masterFirebaseConfig } from './api-keys';
+// import { AngularFireModule } from 'angularfire2';
+// import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 
-export const firebaseConfig = {
-  apiKey: masterFirebaseConfig.apiKey,
-  authDomain: masterFirebaseConfig.authDomain,
-  databaseURL: masterFirebaseConfig.databaseURL,
-  storageBucket: masterFirebaseConfig.storageBucket
-};
+// export const firebaseConfig = {
+//   apiKey: masterFirebaseConfig.apiKey,
+//   authDomain: masterFirebaseConfig.authDomain,
+//   databaseURL: masterFirebaseConfig.databaseURL,
+//   storageBucket: masterFirebaseConfig.storageBucket
+// };
 
 @NgModule({
   declarations: [
@@ -40,9 +40,9 @@ export const firebaseConfig = {
   imports: [
     BrowserModule,
     AppRoutingModule,
-    routing,
-    AngularFireModule.initializeApp(firebaseConfig),
-    AngularFireDatabaseModule
+    routing
+    // AngularFireModule.initializeApp(firebaseConfig),
+    // AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]

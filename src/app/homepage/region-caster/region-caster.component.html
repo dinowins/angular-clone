@@ -1,3 +1,4 @@
-<p>
-  region-caster works!
-</p>
+<h1>Today's Articles: </h1>
+<ul>
+  <li *ngFor="let currentArticle of articles">{{currentArticle.title}}: {{currentArticle.description}}</li>
+</ul>
