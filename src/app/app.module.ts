@@ -12,6 +12,7 @@ import { FavoritesBarComponent } from './favorites-bar/favorites-bar.component';
 import { LoginComponent } from './login/login.component';
 import { routing } from './app.routing';
 import { SignupComponent } from './signup/signup.component';
+import { ArticleDetailComponent } from './article-detail/article-detail.component';
 // import { masterFirebaseConfig } from './api-keys';
 // import { AngularFireModule } from 'angularfire2';
 // import { AngularFireDatabaseModule } from 'angularfire2/database';
@@ -35,7 +36,8 @@ import { SignupComponent } from './signup/signup.component';
     SignupHeroComponent,
     FavoritesBarComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    ArticleDetailComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,6 @@
 <h1>Today's Articles: </h1>
-<ul>
-  <li *ngFor="let currentArticle of articles">{{currentArticle.title}}: {{currentArticle.description}}</li>
-</ul>
+<div *ngFor="let article of articles" (click)="goToDetailPage(article)">
+  <div class="article-body">
+    <h3>{{article.title}}: {{article.description}}</h3>
+  </div>
+</div>
