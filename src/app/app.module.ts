@@ -15,7 +15,7 @@ import { SignupComponent } from './signup/signup.component';
 import { ArticleDetailComponent } from './article-detail/article-detail.component';
 import { environment } from './environment';
 import { AngularFireModule } from '@angular/fire';
-import "firebase/database";
+import { AngularFireDatabaseModule } from '@angular/fire/database';
 
 const firebaseConfig = {
   apiKey: environment.firebase.apiKey,
@@ -42,7 +42,8 @@ const firebaseConfig = {
     BrowserModule,
     AppRoutingModule,
     routing,
-    AngularFireModule.initializeApp(firebaseConfig)
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
