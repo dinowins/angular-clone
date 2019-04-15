@@ -4,12 +4,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description
 
-Weather Underground clone created with Angular. Primary goal is to create landing page and link with Dark Sky API.
+Weather Underground clone created with Angular. Primary goal is to create landing page and link with Dark Sky API. The deployed website is on https://weather-underground-clone.firebaseapp.com/.
 
 Weather Underground Landing Page
 
 ![](src/assets/images/wunderground1.png)
 ![](src/assets/images/wunderground2.png)
+
+My Copy of the website
+
+![](src/assets/images/deployed.png)
 
 ## Installation
 
@@ -25,11 +29,11 @@ Before serving the project, go to https://firebase.google.com/. You will see the
 
 Click on the "Add FireBase to your web app" option (icon is </>).
 
-Add the following code to src/app/api-keys.ts and fill in the fields with your corresponding FireBase information:
+Add the following code to src/app/environment.ts and fill in the fields with your corresponding FireBase information:
 
 ```bash
 
-export const masterFirebaseConfig = {
+export const environment = {
     apiKey: "xxxx",
     authDomain: "xxxx.firebaseapp.com",
     databaseURL: "https://xxxx.firebaseio.com",
@@ -39,7 +43,7 @@ export const masterFirebaseConfig = {
 
 ```
 
-/src/app/api-keys.ts is already added .gitignore file for FireBase information security.
+/src/app/environment.ts is already added .gitignore file for FireBase information security.
 
 ## Specs
 Specification | Input | Output
@@ -51,6 +55,7 @@ Should click on a link and see the corresponding link | |
 
 - Sign-Up Hero: Link to subscribe page
 - Footer: Display links
+- Display local stories from a databse
 
 ## RoadMap
 
@@ -67,6 +72,10 @@ Features wishlist:
 Changes from original website:
 
 - Remove ads for cleaner look
+
+## Bugs
+
+- Deployed website is not showing the actual website.
 
 ## Component Tree
 
