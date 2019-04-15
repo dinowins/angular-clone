@@ -1,5 +1,5 @@
 <h1>Today's Articles: </h1>
-<div *ngFor="let article of articles" (click)="goToDetailPage(article)">
+<div *ngFor="let article of articles | async" (click)="goToDetailPage(article)">
   <div class="article-body">
     <h3>{{article.title}}: {{article.description}}</h3>
   </div>

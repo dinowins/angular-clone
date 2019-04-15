@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Article } from './../../models/article.model';
 import { Router } from '@angular/router';
 import { ArticleService } from './../../article.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-region-caster',
@@ -10,7 +11,7 @@ import { ArticleService } from './../../article.service';
   providers: [ArticleService]
 })
 export class RegionCasterComponent implements OnInit {
-  articles: Article[];
+  articles: Observable<any[]>;
 
   constructor(private router: Router, private articleService: ArticleService) { }
 
